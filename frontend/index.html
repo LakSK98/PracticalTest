@@ -15,8 +15,12 @@
             <p id="average-salary">Average Salary: -</p>
         </div>
 
-        <div class="employee-list">
+        <div class="employee-list-header">
             <h2>Employee List</h2>
+            <button onclick="openAddEmployeeModal()">Add Employee</button>
+        </div>
+
+        <div class="employee-list">
             <table id="employee-table">
                 <thead>
                     <tr>
@@ -32,10 +36,14 @@
                 </tbody>
             </table>
         </div>
+    </div>
 
-        <div class="employee-form">
+    <!-- Add Employee Modal -->
+    <div id="add-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeAddModal()">&times;</span>
             <h2>Add Employee</h2>
-            <form id="employee-form" onsubmit="handleFormSubmit(event)">
+            <form id="add-employee-form" onsubmit="handleFormSubmit(event)">
                 <input type="hidden" id="employee-id">
                 <label for="first-name">First Name:</label>
                 <input type="text" id="first-name" required>

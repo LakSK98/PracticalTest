@@ -56,6 +56,7 @@ async function handleFormSubmit(event) {
         }
         fetchEmployees(); // Refresh the employee list
         clearForm();
+        closeAddModal();
     } catch (error) {
         console.error('Error saving employee:', error);
     }
@@ -86,6 +87,15 @@ function clearForm() {
     document.getElementById('last-name').value = '';
     document.getElementById('date-of-birth').value = '';
     document.getElementById('salary').value = '';
+}
+
+function openAddEmployeeModal() {
+    clearForm(); // Clear form fields
+    document.getElementById('add-modal').style.display = 'block'; // Show the modal
+}
+
+function closeAddModal() {
+    document.getElementById('add-modal').style.display = 'none'; // Hide the modal
 }
 
 function openEditModal(id) {
