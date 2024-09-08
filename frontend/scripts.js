@@ -117,7 +117,7 @@ function confirmDelete(employeeNo) {
 async function updateEmployee(event) {
     event.preventDefault();
 
-    const id = document.getElementById('edit-employee-no').value;
+    const id = document.getElementById('edit-employee-id').value;
     const firstName = document.getElementById('edit-first-name').value;
     const lastName = document.getElementById('edit-last-name').value;
     const dateOfBirth = document.getElementById('edit-date-of-birth').value;
