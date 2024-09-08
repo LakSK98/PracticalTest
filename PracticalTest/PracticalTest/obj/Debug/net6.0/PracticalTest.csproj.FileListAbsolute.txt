@@ -63,3 +63,4 @@ C:\Users\Lakshitha\Downloads\Web Tech\Practical Test\PracticalTest\PracticalTest
 C:\Users\Lakshitha\Downloads\Web Tech\Practical Test\PracticalTest\PracticalTest\obj\Debug\net6.0\PracticalTest.pdb
 C:\Users\Lakshitha\Downloads\Web Tech\Practical Test\PracticalTest\PracticalTest\obj\Debug\net6.0\PracticalTest.genruntimeconfig.cache
 C:\Users\Lakshitha\Downloads\Web Tech\Practical Test\PracticalTest\PracticalTest\obj\Debug\net6.0\ref\PracticalTest.dll
+C:\Users\Lakshitha\Downloads\Web Tech\Practical Test\PracticalTest\PracticalTest\bin\Debug\net6.0\PracticalTest.staticwebassets.runtime.json

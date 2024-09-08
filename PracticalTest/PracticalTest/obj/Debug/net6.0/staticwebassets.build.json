@@ -1,11 +1,71 @@
 {
   "Version": 1,
-  "Hash": "f+WvpPQZ7J0L0TiVv6tpqqqGnWeBd1f2JftZs09wf5A=",
+  "Hash": "uoxvFi1n6yaPp2ZGCA6Kej0aMMdJS9IbmSSxCbamGYU=",
   "Source": "PracticalTest",
   "BasePath": "_content/PracticalTest",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "PracticalTest\\wwwroot",
+      "Source": "PracticalTest",
+      "ContentRoot": "C:\\Users\\Lakshitha\\Downloads\\Web Tech\\Practical Test\\PracticalTest\\PracticalTest\\wwwroot\\",
+      "BasePath": "_content/PracticalTest",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Lakshitha\\Downloads\\Web Tech\\Practical Test\\PracticalTest\\PracticalTest\\wwwroot\\index.html",
+      "SourceId": "PracticalTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lakshitha\\Downloads\\Web Tech\\Practical Test\\PracticalTest\\PracticalTest\\wwwroot\\",
+      "BasePath": "_content/PracticalTest",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Lakshitha\\Downloads\\Web Tech\\Practical Test\\PracticalTest\\PracticalTest\\wwwroot\\scripts.js",
+      "SourceId": "PracticalTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lakshitha\\Downloads\\Web Tech\\Practical Test\\PracticalTest\\PracticalTest\\wwwroot\\",
+      "BasePath": "_content/PracticalTest",
+      "RelativePath": "scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\scripts.js"
+    },
+    {
+      "Identity": "C:\\Users\\Lakshitha\\Downloads\\Web Tech\\Practical Test\\PracticalTest\\PracticalTest\\wwwroot\\styles.css",
+      "SourceId": "PracticalTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lakshitha\\Downloads\\Web Tech\\Practical Test\\PracticalTest\\PracticalTest\\wwwroot\\",
+      "BasePath": "_content/PracticalTest",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
 }
