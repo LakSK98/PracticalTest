@@ -93,7 +93,7 @@ function openEditModal(id) {
     fetch(`${apiBaseUrl}/${id}`)
         .then(response => response.json())
         .then(employee => {
-            document.getElementById('edit-employee-no').value = employee.employeeNo;
+            document.getElementById('edit-employee-id').value = employee.employeeNo;
             document.getElementById('edit-first-name').value = employee.firstName;
             document.getElementById('edit-last-name').value = employee.lastName;
             document.getElementById('edit-date-of-birth').value = new Date(employee.dateOfBirth).toISOString().split('T')[0];
